@@ -6,6 +6,7 @@ import Banner from '../../Assets/image/Banner block.png'
 
 
 import './Home.css'
+import { Card } from "../../Components/Card/Card";
 const Home = () => {
 	return (
 		<section>
@@ -26,8 +27,9 @@ const Home = () => {
 						<button>See all restaurants</button>
 					</div>
 				</section>
+				<Card/>
 			</main>
-			{/* <footer></footer> */}
+			<footer></footer>
 		</section>
 	);
 };
