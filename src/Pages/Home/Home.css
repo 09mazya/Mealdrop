@@ -1,0 +1,84 @@
+.homeHeader {
+	width: 1440px;
+	height: 72px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeLogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 40px;
+	/* border: 1px solid red; */
+}
+.homeLogo img {
+	padding: 6px;
+	cursor: pointer;
+}
+.homeButton {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 450px;
+	height: 40px;
+}
+.homeHome {
+	font-family: "Hind";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.homeAll {
+	font-family: "Hind";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+}
+.homeButton img {
+	width: 56px;
+	right: 56px;
+	cursor: pointer;
+}
+/* css для Блока 1 */
+.homeBanner {
+	background-image: url(../../Assets/image/Banner\ block.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1440px;
+	height: 820px;
+
+	border: 1px solid red;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bannerButton {
+	width: 189px;
+	height: 350px;
+}
+.bannerButton button {
+	width: 189px;
+	height: 56px;
+	background: #202020;
+	border-radius: 4px;
+
+	color: white;
+	font-family: "Hind";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+    cursor: pointer;
+}
